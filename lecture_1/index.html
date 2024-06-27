@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        #b1 {
+            height: 100svh;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: xxx-large;
+            color: rgba(0, 0, 0, 0.7);
+            box-shadow: inset 5px 5px 20px 10px black;
+        }
+
+        #p1 {
+            height: 50svh;
+            width: 30%;
+            text-shadow: 4px 4px 3px black;
+            text-transform: uppercase;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                width: 10%;
+                background-color: black;
+                height: 1%;
+                left: -50px;
+                top: 6%;
+            }
+        }
+    </style>
+</head>
+
+<body id="b1">
+    <p id="p1">Elephant
+    </p>
+    <script src="first.js"></script>
+</body>
+
+</html>

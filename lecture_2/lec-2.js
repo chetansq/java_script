@@ -70,3 +70,32 @@
 //     console.log(hello3)
 // }
 
+/* data type */
+
+/* primitive datatype / immutable */
+
+/*
+
+string , number , boolean , null , undefined , bigint , symbol , object
+
+*/
+
+/* non-primitive datatype / mutable */
+
+// array 
+// object
+
+{
+    // undefined
+    // var a;
+    // console.log(a);
+    // console.log(undefined);
+
+    // let x = undefined;
+}
+
+{
+    let y = null === undefined
+
+    console.log(y)
+}

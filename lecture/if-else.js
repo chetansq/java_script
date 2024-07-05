@@ -2,7 +2,7 @@
 // Javascript Statements
 
 /**
-    
+
     if Statement
     if..else Statement
     if..else if Statement
@@ -13,13 +13,13 @@
 
 // if (condition)
 //     statement1
-  
+
 //   // With an else clause
 //   if (condition)
 //     statement1
 //   else
 //     statement2
-  
+
 // condition
 // An expression that is considered to be either truthy or falsy.
 
@@ -31,13 +31,13 @@
 
 // IceCreame Production
 
-let RowMaterial = 'Milk'
-let Storage = false
-let Production = true
-let Blending = true
-let Pasteurization = true
-let Addingflavor = 'chocolate'
-let Freezing = true
+// let RowMaterial = 'Milk'
+// let Storage = false
+// let Production = true
+// let Blending = true
+// let Pasteurization = true
+// let Addingflavor = 'chocolate'
+// let Freezing = true
 
 // if(RowMaterial == 'Milk'){
 //     console.log('IceCreame Ready For Production !');
@@ -94,7 +94,7 @@ let Freezing = true
 //     default:
 //       statements
 //   }
-  
+
 
 // let subject = 'science'
 
@@ -109,4 +109,30 @@ let Freezing = true
 //     break;
 //     case 'english' : console.log('english books');
 //     default: console.log('No match books');
+// }
+
+
+
+// let subject = 'physics'
+
+
+// switch (subject) {
+//     case 'physics': () => {
+//         console.log('physics books');
+//     }
+//     case 'maths': () => {
+//         console.log('maths books');
+//     }
+//     case 'chemistry': () => {
+//         console.log('maths chemistry');
+//     }
+//     case 'history': () => {
+//         console.log('maths history');
+//     }
+//     case 'english': () => {
+//         console.log('maths english');
+//     }
+//     default: () => {
+//         console.log('No match books');
+//     }
 // }

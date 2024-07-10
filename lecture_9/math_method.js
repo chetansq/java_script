@@ -39,15 +39,19 @@
 // console.log(Math.sign(-5)) // -1
 // console.log(Math.sign(0)) // 0
 
+// console.log(Math.abs(2.6)) // 2.6
+// console.log(Math.abs(-2.6)) // 2.6
+
+// console.log(Math.max(25,1,5,46,7,80,99,65,55,3,0)) // 99
+// console.log(Math.min(25,1,5,46,7,80,99,65,55,3,0,-1)) // -1
+
+// console.log(Math.random()) // 0.3453456476 
+// console.log(Math.random() * 100) // 23.45546546544
+// console.log(Math.floor(Math.random() * 100)) // 46
 
 
-
-
-
-
-
-
-
+// console.log(Math.cos((90 * Math.PI)/ 180)); // 6.123233995736766e-17
+// console.log(Math.sin( 90 * Math.PI / 180)); // 1
 
 
 // console.log(Math.log(100))

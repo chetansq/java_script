@@ -54,3 +54,6 @@
 // console.log(Math.log2(512)) // 2*2*2*2*2*2*2*2*2 = 512
 // console.log(Math.log10(500))
 // console.log(Math.log10(10000)) // 10*10*10*10 = 4
+
+
+let graidentcolor = "world";

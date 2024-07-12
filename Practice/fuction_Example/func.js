@@ -189,3 +189,40 @@
 
 
 }
+
+// 10. Write a program to count the number of vowels and consonants in a given string.
+
+{
+    // function vowels(word) {
+    //     let a = "";
+    //     for (let i of word) {
+    //         if (i == 'a' || i == "e" || i == "i" || i == "o" || i == "u") {
+    //             console.log(i);
+    //         }
+    //         else {
+    //             a += i;
+    //         }
+    //     }
+    //     console.log(a.length);
+    // }
+
+    // let string = prompt("enter a string ");
+    // vowels(string);
+}
+
+// 11. Write a program to check if a year is a leap year or not.
+
+{
+    // function leap(year) {
+    //     if (year % 4 == 0 || year % 100 == 0 || year % 400 == 0) {
+    //         console.log("leap year !")
+    //     }
+    //     else {
+    //         console.log("not leap year");
+    //     }
+    // }
+
+    // let y = prompt("enter a year");
+
+    // leap(y); 
+}

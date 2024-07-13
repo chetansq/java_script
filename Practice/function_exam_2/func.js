@@ -121,21 +121,56 @@
 
 
 {
-    function logest_word(longest) {
-        let new_word = "";
+    // function longest_word(longest) {
+    //     let new_word = "";
 
-        let word = longest.split(" ");
-        console.log(word);
-        for (let letter in word) {
+    //     let word = longest.split(" ");
 
-            if (new_word.length < word.length) {
-                new_word = word.length;
-            }
-        }
+    //     for (let letter of word) {
 
-        console.log(new_word);
-    }
+    //         if (new_word.length < letter.length) {
+    //             new_word = letter;
+    //         }
+    //     }
 
-    let string = prompt("Enter a string ");
-    console.log(string);
+    //     console.log(new_word);
+    // }
+
+    // let string = prompt("Enter a string ");
+    // longest_word(string);
+}
+
+
+// 5. Write a JavaScript function that checks whether a number is perfect.
+
+{
+    // function perfect_num(number) {
+    //     let num = [];
+
+    //     for (let i = 0; i < number; i++) {
+
+    //         if (number % i == 0) {
+    //             num.push(i);
+    //         }
+    //     }
+
+    //     sum = 0;
+
+    //     for (let n of num) {
+    //         sum += n;
+    //     }
+
+    //     if (number == sum) {
+    //         return true;
+    //     }
+    //     else {
+    //         return false;
+    //     }
+    // }
+
+    // let number = prompt("Enter the Number");
+
+    // let perfect = perfect_num(number);
+
+    // console.log(perfect);
 }

@@ -31,7 +31,7 @@
 // Generator 
 {
     // function* generator_fun() {
-    //     yield 1;
+    //     yield 1;                     // yield keyword is use of multiple time return value
     //     yield 3;
     //     yield 4;
     //     yield "World";
@@ -44,8 +44,8 @@
 
     // let data = generator_fun();
 
-    // console.log(data.next().value);
-    // console.log(data.next().value);
+    // console.log(generator_fun().next().value);
+    // console.log(generator_fun().next().value);
     // console.log(data.next().value);
     // console.log(data.next().value);
     // console.log(data.next().value);

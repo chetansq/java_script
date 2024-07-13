@@ -226,3 +226,64 @@
 
     // leap(y); 
 }
+
+
+// practice
+{
+
+    // function fibonacci(n) {
+    //     let a = 0, b = 1, c;
+
+    //     for (let i = 0; i <= n; i++) {
+    //         console.log(a);
+    //         c = a;
+    //         a = a + b;
+    //         b = c;
+    //     }
+    // }
+
+    // fibonacci(5);
+
+}
+
+
+{
+    // function reverse_string() {
+    //     let store = "";
+    //     for (let i = str.length - 1; i >= 0; i--) {
+    //         store += str[i];
+    //     }
+    //     console.log(store);
+    // }
+
+
+
+    // let str = prompt("Enter a string..");
+    // reverse_string(str);
+}
+
+{
+    // function palindrome(str) {
+
+    //     let store = "";
+
+    //     for (let i = str.length - 1; i >= 0; i--) {
+    //         store += str[i];
+    //     }
+
+    //     console.log(store);
+
+    //     if (str == store) {
+
+    //         return true;
+    //     }
+    //     else {
+
+    //         return false;
+    //     }
+    // }
+
+    // let str = prompt("enter a string..");
+    // let string = palindrome(str);
+    // console.log(string);
+}

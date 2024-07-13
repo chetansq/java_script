@@ -68,22 +68,50 @@
     // let letters = prompt("Enter a string ");
     // uppercase(letters);
 
+    //////////////////////////////////////////////
 
     // function uppercase(letters) {
 
     //     let letter = letters.split(" ");
+    //     console.log(letter);
+
     //     for (let i = 0; i < letter.length; i++) {
     //         letter[i] = letter[i][0].toUpperCase() + letter[i].substring(1);
-
     //     }
 
     //     // console.log(letter);
-    //     console.log(letter.join(" "));
+    //     console.log(letter.join(""));
     // }
 
 
     // let letters = prompt("Enter a string ");
     // uppercase(letters);
+
+    ////////////////////////////////////////
+
+    // function upper_case(letters) {
+    //     let letter = letters.split("");
+
+    //     letter[0] = letter[0].toUpperCase();
+    //     for (let i = 0; i < letter.length; i++) {
+    //         if (letter[i] == " ") {
+    //             i++;
+    //             letter[i] = letter[i].toUpperCase();
+
+    //         }
+    //     }
+    //     // let string = "";
+    //     // for(let i = 0; i < letter.length; i++){
+    //     //     string += letter[i];
+    //     // }
+    //     // console.log(string);
+    //     console.log(letter.join(""))
+
+    // }
+
+
+    // let letters = prompt("Enter a String .");
+    // upper_case(letters);
 }
 
 // 4. Write a JavaScript function that accepts a string
@@ -93,5 +121,21 @@
 
 
 {
+    function logest_word(longest) {
+        let new_word = "";
 
+        let word = longest.split(" ");
+        console.log(word);
+        for (let letter in word) {
+
+            if (new_word.length < word.length) {
+                new_word = word.length;
+            }
+        }
+
+        console.log(new_word);
+    }
+
+    let string = prompt("Enter a string ");
+    console.log(string);
 }

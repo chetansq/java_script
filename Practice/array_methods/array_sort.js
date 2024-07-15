@@ -3,10 +3,10 @@
     let data = [];
     let num;
 
-    if (data == "") {
-        alert("data is empty..");
-        push_();
-    } else {
+    // if (data == "") {
+    //     alert("data is empty..");
+    //     push_();
+    // } else {
 
 
 
@@ -81,4 +81,4 @@
             }
         }
     }
-}
+

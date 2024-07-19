@@ -85,10 +85,10 @@
 
     // // has() method --> he has() method returns true if a specified value exists in a set.
 
-    // // console.log(data.has(10)); // true
+    // console.log(data.has(10)); // true
     // // console.log(data.has("World")); // false  it not a small case wolrd diffrence World
 
-    // // console.log("entries", data.entries());
+    // console.log("entries", data.entries());
 
     // // delete() method -->  delete data
 
@@ -129,7 +129,7 @@
 
     data.pop();
 
-    console.log(data);
-    console.log(add);
+    // console.log(data);
+    // console.log(add);
 
 }

@@ -321,7 +321,7 @@
 
 // JavaScript finally() method
 
-{
+    {
     // // You can also use the finally() method with promises. The finally() method gets executed when the promise is either resolved successfully or rejected.
 
     // // returns a promise

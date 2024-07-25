@@ -91,10 +91,10 @@
 
 // const func = (() => console.log('IIFE'))()
 
-// (function (name) {
-//     console.log(name)
-// }
-// )('Hello World!')
+//     (function (name) {
+//         console.log(name)
+//     }
+//     )('Hello World!')
 
 
 
@@ -108,7 +108,7 @@
 
 {
     // let str1 = '   This is javascript String Method!   '
-    // //         1234567890123456789012345678901234567890
+    // //          123456789012345678901234567890123456789
 
 
     // console.log("Length of str : ", str1.length);
@@ -120,7 +120,7 @@
     // // trim left / trimStart()
 
     // let str2 = '   This is javascript String Method!   '
-    // //          1234567890123456789012345678901234567890
+    // //          123456789012345678901234567890123456789
 
     // let string2 = str2.trimStart();
 
@@ -162,7 +162,7 @@
     // console.log(char5);
 
 
-    // charCodeAt(index)  return integer between 0 to 65535 ,it's represent return ascii code
+    // charCodeAt(index)  return integer between 0 to 65535, it's represent return ascii code
 
     // let str = '   This is javascript String Methods!   '
     // //         1234567890123456789012345678901234567890
@@ -170,6 +170,8 @@
 
     // let char1 = str.charCodeAt(-11);
     // console.log(char1);
+    // let char6 = str.charCodeAt(-1);
+    // console.log(char6);
     // let char2 = str.charCodeAt(3);
     // console.log(char2);
     // let char3 = str.charCodeAt(5);
@@ -187,9 +189,9 @@
     // let str = 'hello javascript!'
     // //         01234567890123456 
 
-    // let at1 = str.at(-10);
+    // let at1 = str.at(-10); // last thi return kare
     // let at2 = str.at(0);
-    // let at3 = str.at(-1);
+    // let at3 = str.at(-1); // last character return
     // let at4 = str.at(4);
 
     // console.log(at1);
@@ -207,16 +209,17 @@
 
 {
     // let str = 'javasript string include!'
-    //         0123456789012345678901234
+    // //         0123456789012345678901234
 
-    // let include1 = str.includes('s');
+    // let include1 = str.includes('s'); //true / --> it is search a keyword if keyword is get than return true aother false
 
     // console.log(include1);
 
-    // let include2 = str.includes('s',11);
-    // let include3 = str.includes('a',4);
-    // let include4 = str.includes(' ',16);
-    // let include5 = str.includes('!',24);
+    // let include2 = str.includes('s', 11); // 11 is start index,ane ena pachi thi start thay search karvanu
+
+    // let include3 = str.includes('a', 4);
+    // let include4 = str.includes(' ', 16);
+    // let include5 = str.includes('!', 24);
 
     // console.log(include2);
     // console.log(include3);

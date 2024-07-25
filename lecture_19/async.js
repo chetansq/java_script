@@ -61,18 +61,18 @@
     // function showTime() {
 
     //     // return new date and time
-    //     let dateTime= new Date();
+    //     let dateTime = new Date();
 
     //     // returns the current local time
     //     let time = dateTime.toLocaleTimeString();
 
     //     console.log(time)
 
-    // display the time after 3 seconds
-    // setTimeout(showTime, 3000);
+    //     // display the time after 3 seconds
+    //     setTimeout(showTime, 1000);
     // }
 
-    // calling the function
+    // // calling the function
     // showTime();
     // setInterval(showTime, 2000);
 }
@@ -321,7 +321,7 @@
 
 // JavaScript finally() method
 
-    {
+{
     // // You can also use the finally() method with promises. The finally() method gets executed when the promise is either resolved successfully or rejected.
 
     // // returns a promise

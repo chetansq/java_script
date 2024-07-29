@@ -1,19 +1,19 @@
 
-$(function () {
-    $("#btn1").click(function () {
-        $("#hide").hide();
-    });
+// $(function () {
+//     $("#btn1").click(function () {
+//         $("#hide").hide();
+//     });
 
-})
+// })
 
-$("#btn2").click(function () {
-    $("#hide").show();
-});
+// $("#btn2").click(function () {
+//     $("#hide").show();
+// });
 
 
-$("#btn3").click(function () {
-    $("#hide").toggle();
-});
+// $("#btn3").click(function () {
+//     $("#hide").toggle();
+// });
 
 
 
@@ -32,7 +32,7 @@ $("#btn3").click(function () {
 
 
 $("#btn4").click(() => {
-    $("#fade").fadeIn();
+    $("#fade").fadeOut();
 });
 
 

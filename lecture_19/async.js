@@ -45,7 +45,7 @@
 // The setTimeout() method returns the interval id. 
 
 {
-    // // program to display a text using setTimeout method
+    // program to display a text using setTimeout method
     // function greet() {
     //     console.log('Hello world');
     // }

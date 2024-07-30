@@ -95,7 +95,7 @@ string , number , boolean , null , undefined , bigint , symbol , object
 }
 
 {
-    let y = null === undefined
+    //     let y = null === undefined
 
-    console.log(y)
+    //     console.log(y)
 }

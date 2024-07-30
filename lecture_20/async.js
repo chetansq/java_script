@@ -23,9 +23,9 @@
     //     return Promise.resolve("SkillQode");
     // }
 
-    // f(); 
-    // f().then(data=>console.log(data))
-    // console.log(f().then(data=>console.log(data)));
+    // f();
+    // f().then(data => console.log(data))
+    // console.log(f().then(data => console.log(data)));
 }
 
 // this function returns a promise, you can use the chaining method then()
@@ -59,17 +59,20 @@
     // a promise
     // let promise = new Promise(function (resolve, reject) {
     //     setTimeout(function () {
-    //     resolve(1)}, 4000); 
+    //         resolve(1)
+    //     }, 4000);
+
     // });
 
     // // // async function
     // async function asyncFunc() {
 
-    //     // wait until the promise resolves 
-    //     let result = await promise; 
-
-    //     console.log(result + 15);
     //     console.log('hello');
+    //     // wait until the promise resolves 
+    //     let result = await promise;
+
+    //     console.log('hello world');
+    //     console.log(result + 15);
     // }
 
     // // calling the async function
@@ -90,16 +93,19 @@
 
 {
     // let promise1 = new Promise(function (resolve, reject) {
-    //         setTimeout(function () {
-    //         resolve("Promise 1")}, 2000); 
-    //     });
+    //     setTimeout(function () {
+    //         resolve("Promise 1")
+    //     }, 2000);
+    // });
     // let promise2 = new Promise(function (resolve, reject) {
     //     setTimeout(function () {
-    //     resolve("Promise 2")}, 4000);
+    //         resolve("Promise 2")
+    //     }, 4000);
     // });
     // let promise3 = new Promise(function (resolve, reject) {
     //     setTimeout(function () {
-    //     resolve("Promise 3")}, 6000);
+    //         resolve("Promise 3")
+    //     }, 6000);
     // });
 
     // async function asyncFunc() {
@@ -128,26 +134,27 @@
 // The other way you can handle an error is by using try/catch block.
 
 {
-    //    // a promise
+    // a promise
     // let promise = new Promise(function (resolve, reject) {
     //     setTimeout(function () {
-    //     reject('Promise resolved')}, 3000); 
+    //         reject('Promise resolved')
+    //     }, 3000);
     // });
 
-    //     // async function
+    // // async function
     // async function asyncFunc() {
     //     try {
     //         // wait until the promise resolves 
-    //         let result = await promise; 
+    //         let result = await promise;
 
-    //         console.log("try Block: ",result);
-    //     }   
-    //     catch(error) {
-    //         console.log("Catch Block",error);
+    //         console.log("try Block: ", result);
+    //     }
+    //     catch (error) {
+    //         console.log("Catch Block", error);
     //     }
     // }
 
-    //     // calling the async function
+    // // calling the async function
     // asyncFunc(); // Promise resolved 
 
     //     // we have used try/catch block to handle the errors. If the program runs successfully, it will go to the try block. And if the program throws an error, it will go to the catch block.

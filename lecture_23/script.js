@@ -1,21 +1,26 @@
 
-$(function () {
-    $("#btn1").click(function () {
-        $("#hide").hide();
-    });
+// hide effect
 
-})
+// $(function () {
+//     $("#btn1").click(function () {
+//         $("#hide").hide();
+//     });
 
-$("#btn2").click(function () {
-    $("#hide").show();
-});
+// })
 
-
-$("#btn3").click(function () {
-    $("#hide").toggle();
-});
+// $("#btn2").click(function () {
+//     $("#hide").show();
+// });
 
 
+// $("#btn3").click(function () {
+//     $("#hide").toggle();
+// });
+
+// fade effect
+
+// $(selector).fadeIn/.fadeOut/.fadeToggle(speed,callback);
+// --> same syntax of all fade effects
 
 
 // $(function () {
@@ -34,6 +39,36 @@ $("#btn3").click(function () {
 // $("#btn4").click(() => {
 //     $("#fade").fadeOut();
 // });
+
+
+// slide effect
+
+// $(selector).slideUp/.slideDown/.slideToggle(speed,callback);
+// --> same syntax of all slide effects
+
+// $(function () {
+//     $("#slideup").click(function () {
+//         $("#slide").slideUp("slow");
+//         // $("#slide").slideUp(); // --> without property
+//     })
+// })
+
+// $(function () {
+//     $("#slidedown").click(function () {
+//         $("#slide").slideDown(3000); // set miliseconds
+//     })
+// })
+
+// $(function () {
+//     $("#slidetoggle").click(function () {
+//         $("#slide").slideToggle(2000);
+//     })
+// })
+
+
+// Animate effects
+
+// $(selector).animate({params},speed,callback);
 
 
 

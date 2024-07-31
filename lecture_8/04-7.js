@@ -1,4 +1,4 @@
-// javascript BReak and Continue Statements
+// javascript Break and Continue Statements
 
 // break statement
 
@@ -11,6 +11,19 @@
 //     }
 // }
 
+// for (let i = 0; i <= 10; i++) {
+//     if (i == 5) {
+//         break;
+//     }
+//     console.log("1", i);
+// }
+
+// for (let i = 2; i < 4; i++) {
+//     if (i == 3) {
+//         break;
+//     }
+//     console.log("i", i);
+// }
 // continue statement
 
 // {
@@ -21,6 +34,17 @@
 //         console.log('continue !');
 //     }
 // }
+
+// for (let i = 0; i < 10; i++) {
+//     if (i == 5) {
+//         console.log("skip", i, "and continue");
+//         continue;
+//     }
+//     console.log(" i ", i);
+// }
+
+// if(0.1 + 0.2 === 0.3)
+
 
 // Nested loop
 
@@ -39,21 +63,66 @@
 //         }
 //     }
 // }
+{
+
+    // for (i = 0; i < 10; i++) {
+    //     if (i == 4) {
+    //         break;
+    //     }
+    //     console.log('main loop!');
+
+    //     for (i = 0; i < 4; i++) {
+    //         if (i == 2) {
+    //             break;
+    //         }
+    //         console.log('break !');
+    //     }
+    // }
+}
 
 // call back function
 
-// {
-//     function sum(a, b, callback) {
-//         callback();
-//         return a + b
-//     }
+{
+    // function sum(a, b, callback) {
+    //     callback();
+    //     return a + b;
+    // }
 
-//     function callback() {
-//         console.log(`This is callback Function`);
-//     }
+    // function callback() {
+    //     console.log(`This is callback Function`);
+    // }
 
-//     console.log(sum(20, 30, callback));
-// }
+    // console.log(sum(20, 30, callback));        
+}
+
+
+// practice
+
+{
+    // function arr(a, b, callback) {
+    //     callback();
+    //     return a + b;
+    // }
+
+    // function callback() {
+    //     console.log('callback is here !');
+    // }
+
+    // console.log(arr(10, 20, callback));
+
+
+
+    // function str(a, b, Arr) {
+    //     Arr();
+    //     return a - b;
+    // }
+
+    // function Arr() {
+    //     console.log("hello callback");
+    // }
+
+    // console.log(str(20, 10, Arr));
+}
 
 // {
 //     function sum(a, b) {
@@ -66,6 +135,21 @@
 
 //     console.log(sum(20, 30));
 // }
+
+// practice
+
+{
+    // function arr(a, b) {
+    //     function callback() {
+    //         console.log("this is callback function");
+    //     }
+
+    //     callback();
+    //     return a + b;
+    // }
+
+    // console.log(arr(10, 20));
+}
 
 // {
 //     function sum(a, b) {
@@ -89,12 +173,19 @@
 //     }
 // )()
 
-// const func = (() => console.log('IIFE'))()
-
-//     (function (name) {
-//         console.log(name)
+// (
+//     function () {
+//         console.log("hello")
 //     }
-//     )('Hello World!')
+// )();
+
+// const func = (() => console.log('IIFE'))()
+// const func = (() => console.log('IIFE'))()  // single line function
+
+// (function (name) {
+//     console.log(name)
+// }
+// )('Hello World!')
 
 
 
@@ -103,10 +194,7 @@
 /* string.prototypes */
 
 
-/* Javascript string.trim() */
-
-
-{
+/* Javascript string.trim() */ {
     // let str1 = '   This is javascript String Method!   '
     // //          123456789012345678901234567890123456789
 
@@ -150,8 +238,8 @@
     // //         1234567890123456789012345678901234567890
 
 
-    // let char1 = str.charAt(-11);
-    // console.log(char1);
+    // let char1 = str.charAt(-5); // print blank space
+    // console.log("match", char1);
     // let char2 = str.charAt(3);
     // console.log(char2);
     // let char3 = str.charAt(5);
@@ -164,22 +252,22 @@
 
     // charCodeAt(index)  return integer between 0 to 65535, it's represent return ascii code
 
-    // let str = '   This is javascript String Methods!   '
+    // let str = '   This is javascript String Methods!   ';
     // //         1234567890123456789012345678901234567890
 
 
     // let char1 = str.charCodeAt(-11);
     // console.log(char1);
     // let char6 = str.charCodeAt(-1);
-    // console.log(char6);
+    // console.log(char6); // 32
     // let char2 = str.charCodeAt(3);
-    // console.log(char2);
+    // console.log(char2); // 84
     // let char3 = str.charCodeAt(5);
-    // console.log(char3);
+    // console.log(char3); // 105
     // let char4 = str.charCodeAt(25);
-    // console.log(char4);
+    // console.log(char4);// 105
     // let char5 = str.charCodeAt(30);
-    // console.log(char5);
+    // console.log(char5); // 101
 
 }
 
@@ -189,7 +277,7 @@
     // let str = 'hello javascript!'
     // //         01234567890123456 
 
-    // let at1 = str.at(-10); // last thi return kare
+    // let at1 = str.at(-10); //(-) sign hoy to last thi return kare
     // let at2 = str.at(0);
     // let at3 = str.at(-1); // last character return
     // let at4 = str.at(4);
@@ -215,11 +303,11 @@
 
     // console.log(include1);
 
-    // let include2 = str.includes('s', 11); // 11 is start index,ane ena pachi thi start thay search karvanu
+    // let include2 = str.includes('s', 11);//fale // 11 is start index,ane ena pachi thi start thay search karvanu
 
-    // let include3 = str.includes('a', 4);
-    // let include4 = str.includes(' ', 16);
-    // let include5 = str.includes('!', 24);
+    // let include3 = str.includes('a', 4); //flase
+    // let include4 = str.includes(' ', 16); // true
+    // let include5 = str.includes('!', 24); // true
 
     // console.log(include2);
     // console.log(include3);

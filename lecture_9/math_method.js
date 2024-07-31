@@ -24,7 +24,10 @@
 
 
 // console.log(Math.round(-2.4)) // -2
+// console.log(Math.round(-2.5)) // -2
+// console.log(Math.round(-2.6)) // -3
 // console.log(Math.round(2.4)) // 2
+// console.log(Math.round(2.5)) // 3
 
 // console.log(Math.trunc(-12.5)) // -12
 // console.log(Math.trunc(12.5)) // 12
